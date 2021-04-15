@@ -25,7 +25,7 @@ class Vehicle:
             
 t = Vehicle()
 t.mileage = 30
-t.fuel_left  =6
+t.fuel_left  =10
 print(t.mileage)
 print(t.identify_distance_travelled(20))
 print(t.identify_distance_that_can_be_travelled())
